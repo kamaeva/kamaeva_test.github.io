@@ -1,0 +1,463 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	color:#414042;
+	background: #fff;
+	font-size: 16px;
+	min-width: 320px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+h2{
+	font-size: 48px;
+	font-weight: 300;
+	margin-bottom: 20px
+}
+h2 span{
+	font-weight: 700;
+}
+h3{
+	font-size:36px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px;
+	text-align: center;
+	font-style: black;
+}
+h4{
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+h5{
+	font-size: 33px;
+	color:#01c7d9;
+	font-weight: 600;
+}
+section{
+	position: relative;
+}
+a{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	color: #2cc7c1;
+	text-decoration: none;
+}
+a:hover,{
+	color:#4bcaff;
+}
+.btn{
+	color:#fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 23px 50px;
+	margin: 0 15px;
+	font-weight: 700;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+.btn-primary{
+	background-color: transparent;
+	border-color: #fff;
+}
+.btn-primary:hover{
+	background: #fff;
+	border-color: #fff;
+	color:#277697;
+}
+.btn-default{
+	background-color: #7ea4e8;
+	background: #4bcaff;
+	border: none;
+	border-bottom: 4px solid #277697;
+}
+.btn-default:hover{
+	background:#277697;
+	border-bottom: 4px solid #277697;
+	color:#fff;
+}
+.navbar-default{
+	border: none;
+	background-color:transparent;
+}
+.clearfix:after{
+	clear:both;
+	content: "";
+	display: table;
+}
+.nav{
+	display: block;
+}
+.navbar-toggle{
+	border: none !important;
+}
+.navbar-default .navbar-toggle{
+	border-color: transparent;
+}
+.navbar-toggle .icon-bar{
+	width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.close{
+	display: none;
+	color:#fff;
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	font-size: 31px;
+	opacity: 1;
+}
+.close:focus, .close:hover{
+	color:#fff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: transparent;
+}
+/*************************************************************************TOP_MENU*************************************************************************************************************/
+#header{
+	background: url(../img/base.png) repeat;
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    border: 0;
+}
+
+#header .container{
+	opacity: 1;
+}
+.navbar-link{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+    font-size: 14px;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-brand{
+	padding: 0px 15px;
+}
+.navbar-header{
+    padding: 26px 0 20px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+ 	color: #4bcaff;
+	border-top: 2px solid #4bcaff;
+}
+.navbar-default .navbar-nav>li>a{
+    padding-top: 40px;
+    color:#fff;
+}
+.navbar-default .navbar-nav>li>a:focus{
+	color:#4bcaff;
+}
+/*************************************************************************carousel*************************************************************************************************************/
+#carousel{
+	border-bottom: 5px solid #4bcaff;
+}
+.carousel-control{
+	top: 50%;
+	bottom: 50%;
+}
+.carousel-control.left{
+	margin-left: 10%;
+}
+.bg-slide{
+	background-image: url(../img/slider.png);
+	background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.slide-desc{
+	font-size: 18px;
+	margin: 0 0 60px;
+}
+.available{
+	margin-top: 45px;
+	display: flex;
+	align-items: center;
+}
+.available .fa{
+	background: #2b2724;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	border-radius:50%;
+	font-size: 25px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+.available .fa:hover{
+	color:#4bcaff;
+}
+.carousel-caption .btn-primary{
+	margin-left: 0;
+}
+.menu-carousel .item {
+    min-height: 804px;
+}
+.glyphicon{
+	font-weight: 300;
+}
+.glyphicon-wrap{
+	background: #4bcaff;
+	border-radius: 50%;
+	width: 55px;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.carousel-control .glyphicon{
+	color:#fff;
+}
+.carousel-control:hover .glyphicon{
+	color:#447084;
+}
+.carousel-indicators{
+	bottom: 0;
+}
+.carousel-indicators .active{
+	background-color: #4bcaff;
+}
+.carousel-indicators li.active{
+	border: 1px solid #4bcaff;
+}
+.carousel-caption{
+	text-align: left;
+	position: absolute;
+	top: 30%;
+	left:45%;
+}
+/*************************************************************************advantages*************************************************************************************************************/
+#advantages{
+	background: #f9f9f9;
+}
+#advantages .item >div:hover h4{
+	color:#4bcaff;
+}
+
+#advantages h3{
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+#advantages .subtitle{
+	font-weight: 300;
+	font-size:20px;
+	margin-bottom: 55px;
+}
+#advantages .adv-img{
+	display: inline-block;
+	text-align: center;
+	line-height: 165px;
+}
+.img-wrap{
+	background: #4bcaff;
+	width: 165px;
+	height: 165px;
+	cursor: pointer;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.desc{
+	margin-bottom: 90px;
+}
+#advantages .img-wrap:hover{
+	background: #414042;
+}
+
+
+/*************************************************************************LIST*************************************************************************************************************/
+
+#list h3{
+	margin-top: 70px;
+	margin-bottom: 75px;
+}
+.list-photo{
+	background-color: #414042;
+	border-radius: 50%;
+	float: left;
+	margin-right: 50px;
+}
+.guy-desc{
+	font-weight: 700;
+}
+.guy-list-item{
+	list-style-type: none;
+	margin-bottom: 45px; 
+}
+.radio {
+  margin: 10px 80px 0 7px;
+  width: 35px;
+  height: 35px;
+  background-image:url(../img/el1.png);
+  display:inline-block;
+  margin-top: 40px;
+  vertical-align: top;
+}
+.radio.checked{
+    background-image:url(../img/el2.png);
+}
+input.radio{
+ display:none;
+}
+/*************************************************************************@MEDIA*************************************************************************************************************/
+
+@media only screen and (max-width: 1247px){
+	.btn{
+		padding: 18px 30px;
+		margin: 0 10px;
+	}
+}
+@media only screen and (max-width: 1200px){
+	.navbar-default .navbar-nav>li>a{
+		padding: 40px 10px 10px;
+	}
+}
+@media only screen and (max-width: 1077px){
+	.slide-desc{
+		margin-bottom: 30px;
+	}
+}
+@media only screen and (max-width: 992px){
+	.navbar-default .navbar-nav>li>a{
+		padding: 15px 5px 10px;
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		border-top: 0;
+	}
+	.navbar>.container .navbar-brand{
+		margin-left: 300px;
+	}
+	.carousel-caption{
+		left: 37%;
+		top: 30%;
+	}
+	.nav{
+		margin-right: 10%;
+	}
+}
+@media only screen and (max-width: 794px){
+	.btn{
+		padding: 18px 25px;
+	}
+	h2{
+		font-size: 37px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.navbar>.container .navbar-brand{
+		margin-left: 15px;
+		margin-bottom: 10px;
+	}
+	.nav{
+		display: none;
+		background: #4bcaff;
+		position: absolute;
+	    top: -8px;
+	    width: 100%;
+	    padding: 40px 0;
+	    z-index: 100;
+	}
+	.navbar-default .navbar-nav>li>a{
+		padding: 40px 0px 20px;
+		font-size: 24px;
+		display: inline-block;
+    	margin-left: 60px;
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		border-bottom: 3px solid #fff;
+		color:#fff;
+	}
+	.close{
+		display: block;
+	}
+	.navbar-header{
+		padding-bottom: 0;
+	}
+	.carousel-caption{
+		left: 37%;
+		top: 10%;
+	}
+	.carousel-control{
+		display: none;
+	}
+	.carousel-caption .btn-primary{
+		margin-right: 70px;
+	}
+	.carousel-caption .btn-default{
+		margin-top: 20px;
+		margin-left: 0;
+	}
+	.bg-slide{
+		background-image: url(../img/base2.png);
+	}
+	.radio{
+		margin-right: 25px;
+	}
+	.list-photo{
+		margin-bottom: 15px;
+		margin-right: 25px;
+	}
+	.guy-desc{
+		clear:both;
+		max-width: 80%;
+	}
+	.guy-list-item{
+		margin-bottom: 30px;
+	}
+	.guy-list-item label{
+		width: 80%;
+	}
+	.guy-list-item h5{
+		margin-top: 36px;
+		font-size: 25px;
+	}
+}
+@media only screen and (max-width: 480px){
+	.carousel-caption{
+		left: 16%;
+	}
+	.radio{
+		margin-bottom: 25%;
+	}
+	.guy-list-item label{
+		width: 70%;
+	}
+	.guy-list-item h5{
+		font-size: 20px;
+	}
+	.available{
+		margin-top: 30px;
+	}
+	.available span{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 345px){
+	.guy-list-item h5{
+		font-size: 15px;
+	}
+}
